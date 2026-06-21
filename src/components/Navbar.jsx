@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { Compass, LogOut, LayoutDashboard } from "lucide-react";
+import { LogOut, LayoutDashboard } from "lucide-react";
 import { useState, useEffect } from "react";
 import ThemeToggle from "./ThemeToggle";
+
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -46,7 +48,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2 group min-w-0">
-            <Compass className="h-6 w-6 sm:h-7 sm:w-7 text-[var(--theme-primary)] transition-transform group-hover:rotate-12 duration-300 flex-shrink-0" />
+            <Image src="/logo (2).png" alt="SkillCompass Logo" width={32} height={32} className="h-8 w-8 sm:h-9 sm:w-9 object-contain group-hover:scale-105 transition-transform duration-300 flex-shrink-0" />
             <span className="text-base sm:text-xl font-bold tracking-tight uppercase text-[var(--theme-text)] truncate">SkillCompass</span>
           </Link>
 
