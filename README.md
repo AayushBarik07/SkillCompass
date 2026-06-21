@@ -7,7 +7,7 @@ SkillCompass is an AI-powered job-readiness platform designed to help you naviga
 ---
 
 ## Live Demo
-[View Live Demo](https://skillcompass.vercel.app) *(Replace with your actual Vercel deployment URL)*
+[View Live Demo](https://skill-compass-psi.vercel.app/)
 
 ---
 
