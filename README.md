@@ -1,4 +1,4 @@
-# ?? SkillCompass
+# SkillCompass
 
 > **Direction for your career growth.**
 
@@ -6,12 +6,12 @@ SkillCompass is an AI-powered job-readiness platform designed to help you naviga
 
 ---
 
-## ?? Live Demo
+## Live Demo
 [View Live Demo](https://skillcompass.vercel.app) *(Replace with your actual Vercel deployment URL)*
 
 ---
 
-## ??? Tech Stack
+## Tech Stack
 
 - **Frontend:** Next.js 15 (App Router), React 18, Tailwind CSS, Lucide Icons
 - **Backend:** Next.js Serverless API Routes
@@ -22,7 +22,7 @@ SkillCompass is an AI-powered job-readiness platform designed to help you naviga
 
 ---
 
-## ?? Way of Approach & Architecture
+## Way of Approach & Architecture
 
 SkillCompass is designed with a modern, serverless architecture focusing on speed and privacy:
 1. **Secure Access:** Users authenticate via a custom JWT system to access their dashboard.
@@ -31,7 +31,7 @@ SkillCompass is designed with a modern, serverless architecture focusing on spee
 4. **AI Processing:** The resume text and JD are passed securely to the Gemini AI engine with a highly structured prompt to enforce a strict JSON schema output.
 5. **Actionable Insights:** The backend parses the AI's JSON response and delivers real-time, interactive feedback to the user's dashboard.
 
-### ?? Application Flow Diagram
+### Application Flow Diagram
 
 ```mermaid
 sequenceDiagram
@@ -58,7 +58,7 @@ sequenceDiagram
 
 ---
 
-## ?? Connection & Configuration
+## Connection & Configuration
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
@@ -97,8 +97,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-## ?? Contributing
+## Contributing
 Contributions are always welcome! Feel free to open issues or submit pull requests.
 
-## ?? License
-[MIT License](LICENSE)
