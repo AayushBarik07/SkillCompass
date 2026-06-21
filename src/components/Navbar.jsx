@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2 group min-w-0">
             <Compass className="h-6 w-6 sm:h-7 sm:w-7 text-[var(--theme-primary)] transition-transform group-hover:rotate-12 duration-300 flex-shrink-0" />
-            <span className="text-base sm:text-xl font-bold tracking-tight uppercase text-[var(--theme-text)] truncate">CareerGPS</span>
+            <span className="text-base sm:text-xl font-bold tracking-tight uppercase text-[var(--theme-text)] truncate">SkillCompass</span>
           </Link>
 
           <div className="flex items-center gap-2 sm:gap-5 flex-shrink-0">

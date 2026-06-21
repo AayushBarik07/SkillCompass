@@ -1,0 +1,1 @@
+"use client"; export default function NotFound() { return (<div className="flex flex-col items-center justify-center min-h-[60vh] px-4 text-center"><h2 className="text-4xl font-extrabold mb-4">404 - Not Found</h2><a href="/" className="btn-primary px-6 py-3">Return Home</a></div>); }

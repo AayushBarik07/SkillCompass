@@ -27,7 +27,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "CareerGPS - Navigate your next job move with clarity.",
+  title: "SkillCompass - Direction for your career growth.",
   description: "A smart job-readiness and career-fit platform for job seekers.",
 };
 
@@ -48,3 +48,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export const dynamic = 'force-dynamic';

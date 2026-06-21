@@ -13,12 +13,12 @@ export default function Hero() {
         </div>
         
         <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight max-w-4xl mx-auto leading-tight">
-          Navigate your next <br/>
-          <span className="text-highlight">job move</span><br />
-          with clarity.
+          Direction for your <br/>
+          <span className="text-highlight">career</span><br />
+          growth.
         </h1>
         <p className="mt-8 text-lg sm:text-xl text-[var(--theme-text-muted)] max-w-2xl mx-auto font-medium">
-          CareerGPS is a smart job-readiness and career-fit platform. Compare your resume against a job description and get a 7-day action plan to become job-ready.
+          SkillCompass is a smart job-readiness and career-fit platform. Compare your resume against a job description and get a 7-day action plan to become job-ready.
         </p>
         
         <div className="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">

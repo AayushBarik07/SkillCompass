@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <span className="text-xl font-bold text-highlight uppercase tracking-tight">CareerGPS</span>
+            <span className="text-xl font-bold text-highlight uppercase tracking-tight">SkillCompass</span>
             <p className="text-sm text-[var(--theme-text-muted)] max-w-sm text-center md:text-left">
-              Navigate your next job move with clarity. Free, private, AI-powered career analysis.
+              Direction for your career growth. Free, private, AI-powered career analysis.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-[var(--theme-border)] flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--theme-text-muted)] opacity-80">
-          <p>© {new Date().getFullYear()} CareerGPS. Built by Aayush Barik.</p>
+          <p>© {new Date().getFullYear()} SkillCompass. Built by Aayush Barik.</p>
           <p>Email: aayush.barik@example.com</p>
         </div>
       </div>
